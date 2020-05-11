@@ -1,0 +1,121 @@
+{
+  "name" : "migration_project-1589189244077",
+  "sourceOrgId" : "3h6gQbmhvJ5hRkagfMPLmS",
+  "sourceOrgName" : "AppsAssociates Pvt  Ltd ",
+  "exportedObjects" : [ {
+    "objectGuid" : "c2arOU8HvQ9h8LyFZMoUiR",
+    "objectName" : "149BTT2",
+    "objectType" : "AgentGroup",
+    "path" : "/SYS",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "011AFK25000000000002"
+      },
+      "objectRefs" : [ ],
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  }, {
+    "objectGuid" : "0JG1zUbG0GVjAv5MThqqA3",
+    "objectName" : "Mapping1",
+    "objectType" : "DTEMPLATE",
+    "path" : "/Explore/migration_project",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "011AFK17000000000002"
+      },
+      "objectRefs" : [ "dTwKFQ1TvWrf8lpjsMG8Ak" ],
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  }, {
+    "objectGuid" : "kQRbxIVYE0vj9O6JDNaCSg",
+    "objectName" : "migration_project",
+    "objectType" : "Project",
+    "path" : "/Explore",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : null,
+      "objectRefs" : [ ],
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : "Binary",
+        "documentState" : "COMPLETE"
+      }
+    }
+  }, {
+    "objectGuid" : "dTwKFQ1TvWrf8lpjsMG8Ak",
+    "objectName" : "local_connection1",
+    "objectType" : "Connection",
+    "path" : "/SYS",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "011AFK0B000000000003"
+      },
+      "objectRefs" : [ "c2arOU8HvQ9h8LyFZMoUiR" ],
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "JSON",
+        "documentState" : "COMPLETE"
+      }
+    }
+  }, {
+    "objectGuid" : "losn9Gkpm6WhLtaBL3OnAT",
+    "objectName" : "MappingTask1",
+    "objectType" : "MTT",
+    "path" : "/Explore/migration_project",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "011AFK0Z000000000002"
+      },
+      "objectRefs" : [ "c2arOU8HvQ9h8LyFZMoUiR", "0JG1zUbG0GVjAv5MThqqA3", "dTwKFQ1TvWrf8lpjsMG8Ak" ],
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  } ]
+}
